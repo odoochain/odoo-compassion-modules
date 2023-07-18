@@ -20,6 +20,7 @@ class CommunicationDefaults(models.AbstractModel):
     and communication job. """
 
     _name = "partner.communication.defaults"
+    _description = "Partner communication defaults"
 
     user_id = fields.Many2one(
         "res.users", "From", domain=[("share", "=", False)]
