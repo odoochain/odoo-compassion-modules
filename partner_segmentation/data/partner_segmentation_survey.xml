@@ -9,6 +9,7 @@
         <field name="questions_layout">page_per_question</field>
         <field name="scoring_type">no_scoring</field>
         <field name="title">Welcome!</field>
+        <field name="state">open</field>
         <field name="description" type="html">
             <p>
                 Thank you for participating in this 5-minute survey that will allow Compassion to better serve supporters like you.
